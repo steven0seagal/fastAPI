@@ -1,5 +1,11 @@
 # FastAPI Diagnostics Lab (Feature Repository)
 
+[![CI](https://github.com/steven0seagal/fastAPI/actions/workflows/ci.yml/badge.svg)](https://github.com/steven0seagal/fastAPI/actions/workflows/ci.yml)
+[![Docs](https://github.com/steven0seagal/fastAPI/actions/workflows/docs.yml/badge.svg)](https://github.com/steven0seagal/fastAPI/actions/workflows/docs.yml)
+[![Docker Build](https://github.com/steven0seagal/fastAPI/actions/workflows/docker-build.yml/badge.svg)](https://github.com/steven0seagal/fastAPI/actions/workflows/docker-build.yml)
+[![Docs Site](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://steven0seagal.github.io/fastAPI/)
+[![Ruff](https://img.shields.io/badge/style-ruff-261230?logo=ruff&logoColor=white)](https://github.com/astral-sh/ruff)
+
 A repository-style project that showcases "real" FastAPI patterns in a **diagnostics laboratory** domain:
 
 - FastAPI routing, dependencies, validation (Pydantic), error handling, OpenAPI docs

@@ -1,0 +1,34 @@
+site_name: FastAPI Diagnostics Lab
+site_description: FastAPI feature repository (DB + Celery + Docker) in a diagnostics laboratory domain.
+repo_url: https://github.com/<org>/<repo>
+repo_name: fastapi-diagnostics-lab
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Quickstart:
+      - Running: RUNNING.md
+      - API Walkthrough: API.md
+  - Concepts:
+      - Domain: DOMAIN.md
+      - Architecture: ARCHITECTURE.md
+  - Implementation:
+      - Database: DB.md
+      - Celery: CELERY.md
+      - Testing: TESTING.md
+  - Delivery:
+      - CI/CD: CI_CD.md
+      - Git Workflow: GIT_WORKFLOW.md
+  - Roadmap: PLAN.md
